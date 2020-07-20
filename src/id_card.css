@@ -1,0 +1,21 @@
+.id-card-wrapper {
+    border: 2px solid black;
+    width: 700px;
+    padding: 5px;
+    display: flex;
+    margin: 5px;
+}
+
+.id-card-wrapper img {
+    width: 100px;
+    margin-right: 5px;
+}
+
+.id-card-wrapper .info-wrapper {
+    line-height: 18px;
+    font-size: 0.8rem;
+}
+
+.id-card-wrapper .id-card-label{
+    font-weight: bolder;
+}

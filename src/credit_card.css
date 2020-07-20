@@ -1,0 +1,37 @@
+.card-box {
+    width: 200px;
+    height: 100px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 10px;
+    position: relative;
+    float: left;
+}
+
+.card-type {
+    width: 30px;
+    align-self: flex-end;
+}
+
+.card-nb {
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.dots{
+    font-size: 1.5rem;
+    vertical-align: sub;
+}
+
+.flexed-item {
+    display: flex;
+}
+
+.card-box p {
+    font-size: 0.6rem;
+    margin-right: 15px;
+}

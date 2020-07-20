@@ -1,0 +1,8 @@
+.box-wrapper {
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 700px;
+    font-size: 1rem;
+    font-weight: bolder;
+}
