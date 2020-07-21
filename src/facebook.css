@@ -1,0 +1,21 @@
+#profils-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr))
+}
+
+.profil-wrapper {
+    border: solid 2px black;
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+    font-size: 0.9rem;
+}
+
+.profil-wrapper img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.profil-wrapper span {
+    font-weight: bolder;
+}
