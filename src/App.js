@@ -12,6 +12,7 @@ import Dice from './Components/Dice';
 import Carousel from './Components/Carousel';
 import NumbersTable from './Components/NumbersTable';
 import Facebook from "./Components/Facebook";
+import SignupPage from "./Components/SignupPage";
 
 class App extends Component {
   render() {
@@ -114,6 +115,7 @@ class App extends Component {
         />
         <NumbersTable limit={12} />
         <Facebook />
+        <SignupPage />
       </React.Fragment>
     );
   }
